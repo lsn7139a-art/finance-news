@@ -14,7 +14,7 @@ from datetime import datetime
 EMAIL_HOST = "smtp.qq.com"  # For QQ mail
 EMAIL_PORT = 465
 EMAIL_HOST_USER = "1372943709@qq.com"
-EMAIL_HOST_PASSWORD = "rdwczjrfwdnkbagj"
+EMAIL_HOST_PASSWORD = "your_authorization_code_here"  # 请替换为您的QQ邮箱授权码
 RECIPIENT_EMAIL = "1372943709@qq.com"
 
 def send_test_email():

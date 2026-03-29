@@ -34,7 +34,7 @@ cd financial-news
 
    **EMAIL_HOST_PASSWORD**
    - 名称：`EMAIL_HOST_PASSWORD`
-   - 值：`rdwczjrfwdnkbagj`
+   - 值：您的QQ邮箱授权码（不是邮箱密码）
 
    **EMAIL_HOST**
    - 名称：`EMAIL_HOST`
