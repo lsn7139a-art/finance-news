@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python:*)",
+      "Bash(ls -la *.md *.py *.json *.yml)",
+      "Bash(read -p \"请输入您的QQ邮箱地址: \" user_email)",
+      "Bash(echo \"您的邮箱: $user_email\")",
+      "Bash(start:*)",
+      "Bash(git init:*)",
+      "Bash(git config:*)",
+      "Bash(git add:*)"
+    ]
+  }
+}

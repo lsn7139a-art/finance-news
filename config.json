@@ -1,0 +1,32 @@
+{
+  "email": {
+    "to_address": "1372943709@qq.com",
+    "smtp_server": "smtp.qq.com",
+    "smtp_port": 465,
+    "use_ssl": true
+  },
+  "schedule": {
+    "timezone": "Asia/Shanghai",
+    "hour": 9,
+    "minute": 0
+  },
+  "news_sources": {
+    "a_share": {
+      "count": 4,
+      "sources": ["eastmoney", "tonghuashun", "yahoo_finance"]
+    },
+    "us_share": {
+      "count": 3,
+      "sources": ["bloomberg", "reuters", "cnbc"]
+    },
+    "crypto": {
+      "count": 3,
+      "sources": ["coindesk", "cointelegraph", "bloomberg"]
+    }
+  },
+  "email_template": {
+    "subject_prefix": "【今日金融快报】",
+    "greeting": "您好，以下为今天（{date}）的金融资讯快报，请查收。",
+    "closing": "祝您投资顺利，日常请关注风险。"
+  }
+}
