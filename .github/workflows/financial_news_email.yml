@@ -9,19 +9,17 @@ on:
 jobs:
   generate-and-send-news:
     runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     steps:
     - name: 检出代码
       uses: actions/checkout@v4
-      env:
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     - name: 设置Python环境
       uses: actions/setup-python@v4
       with:
         python-version: '3.10'
-      env:
-        FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
 
     - name: 安装依赖
       run: |
