@@ -28,7 +28,7 @@ jobs:
 
     - name: 生成金融快报
       run: |
-        python real_news_generator.py
+        python improved_news_generator.py
       env:
         TZ: Asia/Shanghai
 
