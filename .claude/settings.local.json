@@ -8,7 +8,29 @@
       "Bash(start:*)",
       "Bash(git init:*)",
       "Bash(git config:*)",
-      "Bash(git add:*)"
+      "Bash(git add:*)",
+      "Bash(git commit:*)",
+      "Bash(git branch:*)",
+      "Bash(git remote:*)",
+      "Bash(git push:*)",
+      "Bash(./🚀一键继续.bat)",
+      "Bash(ls:*)",
+      "Bash(echo:*)",
+      "WebSearch",
+      "WebFetch(domain:sspai.com)",
+      "Bash(pip install:*)",
+      "Bash(__NEW_LINE_128784c96b4a88be__ - 新增 improved_news_generator.py：改进版真实新闻生成器)",
+      "Bash(- 新增 news_monitor.py：新闻源监控和错误处理系统)",
+      "Bash(- 更新 real_email_sender.py：适配改进版新闻系统)",
+      "Bash(- 更新 requirements.txt：添加必要的依赖包)",
+      "Bash(- 更新 GitHub Actions 工作流：使用新的真实新闻生成器)",
+      "Bash(curl -s -H \"Authorization: token $GITHUB_TOKEN\" -H \"Accept: application/vnd.github.v3+json\" https://api.github.com/repos/lsn7139a-art/finance-news/actions/workflows/financial_news_email.yml/runs)",
+      "Bash(curl -s -I http://xueqiu.com/7579238876/383378969)",
+      "Bash(curl -s -I https://www.marketwatch.com/story/americans-blame-iran-war-for-worsening-economic-outlook-pushing-sentiment-down-to-record-low-db3332ef)",
+      "Bash(set EMAIL_HOST_PASSWORD=rdwczjrfwdnkbagj)",
+      "Bash(findstr:*)",
+      "Bash(curl -s https://raw.githubusercontent.com/lsn7139a-art/finance-news/main/improved_news_generator.py)",
+      "Bash(curl -s https://api.github.com/repos/lsn7139a-art/finance-news/contents/.github/workflows/financial_news_email.yml)"
     ]
   }
 }
